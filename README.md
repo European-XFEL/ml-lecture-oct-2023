@@ -14,7 +14,7 @@ the setup would be the following (for an environment called `env`, but use the n
 you prefer):
 
 ```
-# create the environment ml
+# create the environment env
 python -m venv env
 
 # load it
