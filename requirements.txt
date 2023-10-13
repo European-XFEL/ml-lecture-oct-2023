@@ -1,3 +1,5 @@
+--index-url https://pypi.anaconda.org/intel/simple
+--extra-index-url https://pypi.org/simple
 --extra-index-url https://download.pytorch.org/whl/cpu
 numpy
 scipy
@@ -7,3 +9,4 @@ scikit-learn
 torch==2.0.0+cpu
 gpytorch
 botorch
+jupyterlab

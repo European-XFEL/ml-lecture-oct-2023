@@ -20,8 +20,11 @@ python -m venv env
 # load it
 source env/bin/activate
 
+# update pip
+pip install -U pip
+
 # install some packages to get started
-pip install numpy scipy pandas matplotlib jupyterlab scikit-learn torch gpytorch botorch
+pip install -r requirements.txt
 
 # play with the notebooks ...
 jupyter lab
